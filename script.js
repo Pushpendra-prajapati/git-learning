@@ -5,7 +5,7 @@ var second = document.getElementById("second");
 var clock = setInterval(
     function time() {
       var dateNow = new Date();
-      var hr = dateNow.getHours();
+      var hr = dateNow.getHours() - 12;
       var min = dateNow.getMinutes();
       var sec = dateNow.getSeconds(); 
 
